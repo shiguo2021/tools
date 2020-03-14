@@ -22,7 +22,7 @@
 @property (nonatomic,strong) NSArray * headers_;
 @property (nonatomic,assign) BOOL urlencoded_;
 @property (nonatomic,strong) NSMutableData * data;
-@property (nonatomic,copy)   NSString * localUrl;
+@property (nonatomic,strong)   NSURL * localUrl;
 @property (nonatomic,copy)   progress_t progress_;
 @property (nonatomic,copy)   response_t response_;
 @property (nonatomic,copy)   file_t file_;
